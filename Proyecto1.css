@@ -1,0 +1,131 @@
+html{
+    min-height: 100%;
+    position: relative;
+}
+body {
+    margin: 0;
+    margin-bottom: 40px;
+	font-family: "Courier New", Courier, monospace;
+    background-color:beige;
+}
+header {
+    /*border: 2px solid;*/
+    margin: auto;
+    text-align: center;
+    font-size: 3.0em;
+}
+.contenedor {
+    text-align: center;
+	margin:0px;
+	display: table;
+	}
+	h2{
+        padding: 0px;
+        /*border: 2px solid #000;*/
+       
+		float: none;
+		color: currentColor;
+		position:relative;
+        font-size: 1.5em;
+	}
+	h2 span{
+		position: absolute;
+		right: 0;
+		widht: 0;
+		background-color: beige   ;
+		/*border-left: 1px solid #000;*/
+		
+		animation: maquina 5s infinite alternate steps(45);
+		}
+		@keyframes maquina {
+			from {
+				width: 100%;
+			}
+			to {
+				width: 0;
+				}
+				}
+/*#Desarrollo{
+   border: solid 2px;
+    height: 600px;
+    float: right;
+    width: 80%;
+  
+}*/
+#SobreMi {
+    float: right;
+    width: 80%;
+    margin: 100px;
+    font-size: 4.0em;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    text-align: justify;
+  
+}
+
+#Linkedin{
+    height: 50px;
+    width: 60px;
+}
+#Gmail{
+    height: 50px;
+    width: 60px;
+}
+#Wsp{
+    height: 50px;
+    width: 60px;
+}
+#tituloSobre{text-align: center;}
+#Objetivos {
+    float: right;
+    width: 80%;
+    font-size: 4.0em;
+    margin: 100px;
+    /*padding: 40px;*/
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    text-align:justify;
+}
+#tituloObje{text-align: center;}
+
+#Contacto{
+    -webkit-transition:all 1.5s ease; /* Safari y Chrome */
+    -moz-transition:all 1.5s ease; /* Firefox */
+    -o-transition:all 1.5s ease; /* IE 9 */
+    -ms-transition:all 1.5s ease; /* Opera */
+    position: fixed;
+    background-color: beige;
+    width: 10%;
+    margin: 20px;
+    font-family: "Courier New", Courier, monospace;
+}
+#Skills{
+    background-color: beige;
+    float: right;
+    width: 80%;
+    font-size: 4.0em;
+    margin: 100px;
+    /*padding: 40px;*/
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    text-align:center;
+    
+}
+#tituloSk{text-align: center;}
+img.zoom{
+    
+     width: 200px;
+    height: 200px;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+}
+ 
+.transition {
+    -webkit-transform: scale(1.8); 
+    -moz-transform: scale(1.8);
+    -o-transform: scale(1.8);
+    transform: scale(1.8);
+}
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="Proyecto1.css">
+    <script src="Proyecto1.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+     <script>
+$(document).ready(function(){
+    $('.zoom').hover(function() {
+        $(this).addClass('transition');
+    }, function() {
+        $(this).removeClass('transition');
+    });
+});
+        </script>  
+</head>
+<body>
+    <header>
+    <h1 id="Titulo">Agustin Toponi</h1>
+    <div class="container">
+        <h2 id="Subtitulo">Web Developer.<span>&#160;</span></h2>
+    </div>
+    </header>    
+    
+    
+
+        <article id="SobreMi">
+	   <h1 id="tituloSobre"> <b> SOBRE MI:  </b> </h1>
+	   <p>Soy desarrollador web front-end, estudiante de 2do año de la carrera Desarrollo de Software</p>
+	   </article>
+    
+	   <article id="Objetivos">
+	   <h1 id="tituloObje"> OBJETIVOS:  </h1>
+	   <p>Brindar mis servicios como desarrollador web front-end a su empresa para mejorar la experiencia de los clientes y adaptarla al nuevo mundo.</p>
+        </article>
+    <article id="Skills">
+        <h1 id="tituloSk">Conocimientos: </h1>
+  
+        <img  src="Javascriot.png" height="50px;" width="60px;" class="zoom">
+        <img src="descarga.png" height="50px;" width="60px;" alt="" class="zoom">   
+      <img src="html.jpg" height="60px;" width="60px;" class="zoom"   >
+  
+        </article>
+	<aside id="Contacto">
+	<h1> CONTACTO:  </h1>
+        <ul>
+            <a href="https://www.linkedin.com/in/agustin-toponi-557362198/"><img id="Linkedin" src="linkedin.jpg" class="zoom"></a>
+        </ul>
+        <ul>
+            <a href="mailto:agustoponi354@gmail.com"><img id="Gmail" src="Gmail-Logo.png" class="zoom"></a>
+        </ul>
+        <ul>
+            <a href="https://api.whatsapp.com/send?phone=5493402481150"><img id="Wsp" src="whatsapp-2.png" class="zoom"></a>
+        </ul>
+	</aside>
+</body>
